@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebGIS Starter</title>
+    </head>
+    <body>
+        <container>
+            <!-- Navbar -->
+            <header class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark element-shadow">
+                <div class="navbar-brand">
+                    <img src="./src/img/IZSAM_white.png" alt="Logo IZS">
+                </div>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapse_target">
+                    <span class="navbar-text text-white">
+                        <h5 class="app-title">GIS Starter - <small>Basic Skeleton Application</small></h5>
+                        <small><a href="http://izs.it/IZS" target="_blank" class="text-white">
+                            Centro di Referenza Nazionale</a><br/>
+                            <span class="d-flex flex-direction-column">
+                                <div class="green" style="width: 60px; height:3px; background-color: green;"></div>
+                                <div class="white" style="width: 61px; height:3px; background-color: white;"></div>
+                                <div class="red"   style="width: 60px; height:3px; background-color: red;"></div>
+                            </span>
+                        </small>
+                    </span>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <button class="btn btn-link text-white" id="show-tools-btn" data-toggle="modal" data-target="#infoModal"><i class="fas fa-question-circle fa-lg"></i> Info</button>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <!-- Close Navbar -->
+            <map class="element-shadow"></map>
+            <sidebar class="element-shadow"></sidebar>
+        </container>
+
+        <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-dark text-white">
+                        <h5 class="modal-title"><i class="fas fa-question-circle fa-lg"></i> Informazioni su questa applicazione</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-dark text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a neque sed nibh feugiat auctor. 
+                        Duis eget dapibus elit. Aenean ullamcorper, elit et fringilla facilisis, felis risus dictum elit, a dictum velit risus sit amet augue. 
+                        Ut lacinia sit amet urna eget dictum. Nulla ullamcorper arcu ut lectus venenatis convallis. 
+                        Suspendisse et augue ex. Morbi dignissim iaculis ex eu posuere. Maecenas venenatis tellus leo, nec vehicula sem rutrum quis. 
+                        Duis commodo quam in vulputate sollicitudin. Quisque in tellus vel odio luctus lacinia. 
+                        Proin tortor sapien, tempus at elit at, egestas tempus neque. Donec a sem at elit faucibus malesuada. 
+                        Pellentesque diam est, facilisis at nisl sit amet, consectetur lobortis massa. Proin gravida dui id sem semper ultrices.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./src/app.js"></script>
+    </body>
+</html>

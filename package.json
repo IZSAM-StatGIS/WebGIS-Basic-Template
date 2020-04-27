@@ -1,0 +1,43 @@
+{
+  "name": "webgis-basic-template",
+  "version": "1.0.0",
+  "description": "Starter template per webgis e map based dashboard. Per modificare la struttura è sufficiente lavorare sulla grid alla base del layout. Le principali librerie di lavoro sono incluse nel package.jsono",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html --no-cache --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IZSAM-StatGIS/WebGIS-Basic-Template.git"
+  },
+  "keywords": [
+    "GIS",
+    "CRN",
+    "IZSAM",
+    "OpenLayers"
+  ],
+  "author": "Alessio Di Lorenzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IZSAM-StatGIS/WebGIS-Basic-Template/issues"
+  },
+  "homepage": "https://github.com/IZSAM-StatGIS/WebGIS-Basic-Template#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-select": "^1.13.16",
+    "chartjs": "^0.3.24",
+    "chartjs-plugin-colorschemes": "^0.4.0",
+    "chartjs-plugin-zoom": "^0.7.5",
+    "chroma-js": "^2.1.0",
+    "jquery": "^3.5.0",
+    "moment": "^2.24.0",
+    "ol": "^6.3.1",
+    "popper.js": "^1.16.1"
+  }
+}
