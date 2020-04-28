@@ -8,3 +8,7 @@ Starter template per webgis e map based dashboard. Per modificare la struttura Ã
     npm install
 
     npm run start
+
+## Example
+
+https://izsam-statgis.github.io/WebGIS-Basic-Template/dist/index.html
